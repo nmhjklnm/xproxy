@@ -31,7 +31,8 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [xproxy]
+          paths: [.]
+          load_external_modules: true
           options:
             docstring_style: google
             # show_source: true
@@ -40,6 +41,7 @@ plugins:
             show_root_heading: true
             show_root_full_path: false
             allow_inspection: true
+
 
 
 

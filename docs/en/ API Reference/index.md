@@ -1,5 +1,5 @@
 # Base
 
-::: xproxy.manager.Proxy
+::: xproxy.manager.base.Proxy
 
-::: xproxy.manager.ProxyManager
+::: xproxy.manager.base.ProxyManager
