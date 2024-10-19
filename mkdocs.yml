@@ -31,16 +31,15 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [.]
-          load_external_modules: true
           options:
             docstring_style: google
-            # show_source: true
+            show_source: true
             show_bases: true
             heading_level: 3
             show_root_heading: true
             show_root_full_path: false
             allow_inspection: true
+            parameter_headings: true
 
 
 

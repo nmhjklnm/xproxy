@@ -1,4 +1,4 @@
 # DuoMi
 
 
-::: xproxy.manager.duomi.DuoMiProxyManager
+::: xproxy.manager.DuoMiProxyManager
