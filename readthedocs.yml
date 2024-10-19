@@ -7,15 +7,14 @@ build:
   tools:
     python: "3.10"
   jobs:
-    pre_build:
-      - export PYTHONPATH=$PYTHONPATH:$(pwd)
-      - pip install -r docs/requirements.txt
+    post_install:
+      - export PYTHONPATH="$(pwd)";echo $PYTHONPATH 
+      - echo $PYTHONPATH  # For debugging purposes
 mkdocs:
   configuration: mkdocs.yml
 
 # Optionally declare the Python requirements required to build your docs
 python:
   install:
-  
   - requirements: docs/requirements.txt
 
