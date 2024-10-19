@@ -1,0 +1,14 @@
+/* 确保你已经加载了 Font Awesome */
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css');
+
+/* 更改翻译图标 */
+.md-header-nav__button i.material-icons {
+    display: none; /* 隐藏默认图标 */
+}
+
+.md-header-nav__button::before {
+    content: "\f1ab"; /* Font Awesome 的地球图标 */
+    font-family: 'Font Awesome 5 Free';
+    font-weight: 900;
+    font-size: 24px;
+}

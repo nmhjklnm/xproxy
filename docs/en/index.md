@@ -1,6 +1,5 @@
 # xproxy
 
-[English](./README.en.md) | [简体中文](./README.zh-CN.md)
 
 [![Documentation Status](https://readthedocs.org/projects/xproxy/badge/?version=latest)](https://xproxy.readthedocs.io/en/latest/?badge=latest)
 
