@@ -1,8 +1,6 @@
 # Base
 
-::: xproxy.manager
-    options:
-      members:
-      - ProxyManager
-      - Proxy
+::: xproxy.manager.ProxyManager
 
+
+::: xproxy.manager.Proxy

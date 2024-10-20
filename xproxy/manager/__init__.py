@@ -1,4 +1,4 @@
-from xproxy.manager.base import Proxy,ProxyManager
+from xproxy.manager.schema import Proxy,ProxyManager
 from xproxy.manager.duomi import DuoMiProxyManager
 
 __all__=[
