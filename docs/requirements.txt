@@ -4,4 +4,3 @@ mkdocs-static-i18n
 mkdocs-minify-plugin
 mkdocs-material
 mkdocstrings[python]
-xproxy

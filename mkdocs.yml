@@ -10,7 +10,7 @@ theme:
     - docs/extra.css
   repo_name: xproxy
   features:
-  - navigation.tabs
+    - navigation.tabs
 
 plugins:
   - search:
@@ -27,7 +27,6 @@ plugins:
         - locale: zh
           name: 简体中文
           build: true
-
   - mkdocstrings:
       handlers:
         python:
@@ -40,7 +39,3 @@ plugins:
             show_root_full_path: false
             allow_inspection: true
             parameter_headings: true
-
-
-
-
