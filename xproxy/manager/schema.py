@@ -1,4 +1,3 @@
-import requests
 import random
 import datetime
 from typing import List, Optional, Dict
