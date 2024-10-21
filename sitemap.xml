@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+    <url>
+        <loc>https://xproxy.readthedocs.com/</loc>
+        <lastmod>2024-10-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xproxy.readthedocs.com/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://xproxy.readthedocs.com/zh/"/>
+    </url>
+    <url>
+        <loc>https://xproxy.readthedocs.com/%20API%20Reference/</loc>
+        <lastmod>2024-10-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xproxy.readthedocs.com/%20API%20Reference/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://xproxy.readthedocs.com/zh/%20API%20Reference/"/>
+    </url>
+    <url>
+        <loc>https://xproxy.readthedocs.com/%20API%20Reference/DuoMi/</loc>
+        <lastmod>2024-10-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xproxy.readthedocs.com/%20API%20Reference/DuoMi/"/>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://xproxy.readthedocs.com/zh/%20API%20Reference/DuoMi/"/>
+    </url>
+    <url>
+        <loc>https://xproxy.readthedocs.com/zh/</loc>
+        <lastmod>2024-10-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://xproxy.readthedocs.com/zh/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xproxy.readthedocs.com/"/>
+    </url>
+    <url>
+        <loc>https://xproxy.readthedocs.com/zh/%20API%20Reference/</loc>
+        <lastmod>2024-10-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://xproxy.readthedocs.com/zh/%20API%20Reference/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xproxy.readthedocs.com/%20API%20Reference/"/>
+    </url>
+    <url>
+        <loc>https://xproxy.readthedocs.com/zh/%20API%20Reference/DuoMi/</loc>
+        <lastmod>2024-10-21</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="zh" href="https://xproxy.readthedocs.com/zh/%20API%20Reference/DuoMi/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="https://xproxy.readthedocs.com/%20API%20Reference/DuoMi/"/>
+    </url>
+</urlset>
