@@ -1,7 +1,6 @@
 # XProxy
 
 
-[![Documentation Status](https://readthedocs.org/projects/xproxy/badge/?version=latest)](https://xproxy.readthedocs.io/en/latest/?badge=latest)
 
 ## Project Introduction
 

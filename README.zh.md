@@ -1,27 +1,31 @@
-# xproxy
+<div align="center">
 
-[English](./README.en.md) | [简体中文](./README.zh-CN.md)
+<a href="https://nmhjklnm.github.io/xproxy/" target="_blank" title="前往 XProxy 网站"><img width="196px" alt="XProxy logo" src=".asset/logo.png"></a>
 
-[![Documentation Status](https://readthedocs.org/projects/xproxy/badge/?version=latest)](https://xproxy.readthedocs.io/)
+<a name="readme-top"></a>
 
-## 项目介绍
+# XProxy
 
-xproxy 是一个为代理提供细粒度控制的轻量级代理 IP 管理框架，兼容长短效代理和多厂商代理。
+一个轻量级的代理 IP 管理框架
+<div align="center">
+    <a href="https://www.python.org/downloads/"><img src="https://img.shields.io/badge/python-3.8%2B-blue" alt="Python 版本"></a>
+    <a href="https://nmhjklnm.github.io/xproxy/"><img src="https://img.shields.io/badge/docs-latest-brightgreen" alt="文档"></a>
+    <a href="./LICENSE"><img src="https://img.shields.io/badge/license-Apache%202.0-blue" alt="许可证"></a>
+</div>
 
-市面上的短效代理价格便宜但有效期短，通常在几十秒内失效。为了有效利用这些代理，需要对其进行细粒度的控制和管理。xproxy 提供了多种特性和功能，帮助用户轻松管理和使用代理，同时支持多厂商代理的兼容和共用。
 
-## 特性
+## 简介
 
-1. **细粒度控制**：通过详细的代理属性管理，实现对代理的精确控制。包括代理的创建时间、最后使用时间、使用次数、最大使用次数、过期时间等属性。
-2. **自动轮换**：支持定期轮换代理或在代理池存量不足时进行轮换。可以为代理池设置最小 IP 数量，当低于这个数量时会自动进行轮换。
-3. **代理验证**：自动检查和验证代理的使用次数和过期时间，支持主动标记失效代理，确保代理在有效期内使用。
-4. **可定制**：可以轻松扩展，将不同来源代理共用。
+XProxy 是一个轻量级的代理 IP 管理框架，提供对代理的细粒度控制，兼容短期和长期代理，并支持多个供应商。
 
-## 安装
+**↘  XProxy 文档  ↙**
 
-```bash
-pip install xproxy
-```
+[English](https://nmhjklnm.github.io/xproxy/) · [简体中文](https://nmhjklnm.github.io/xproxy/zh-CN/)
+
+</div>
+
+## 动机
+短期代理价格便宜，但寿命非常短，通常在几秒钟内就会失效。为了有效利用这些代理，需要进行细粒度的控制和管理。XProxy 提
 
 ## 示例
 
@@ -43,7 +47,7 @@ if response.status_code != 200:
 
 ## 使用教程
 
-详细的使用教程请参考 [xproxy 使用文档](https://xproxy.readthedocs.io)。
+详细的使用教程请参考 [xproxy 使用文档](https://nmhjklnm.github.io/xproxy/zh/)。
 
 ### TODO
 

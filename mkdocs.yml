@@ -1,9 +1,10 @@
-site_name: xproxy docs
+site_name: xproxy 
 site_url: https://xproxy.readthedocs.com
 repo_url: https://github.com/nmhjklnm/xproxy
 
 theme:
   name: material
+  logo: asset/logo.png
   icon:
     repo: fontawesome/brands/git-alt
   extra_css:
@@ -11,6 +12,13 @@ theme:
   repo_name: xproxy
   features:
     - navigation.tabs
+  palette:
+    scheme: default
+    primary: white
+    accent: blue
+    toggle:
+      icon: material/toggle-switch-off-outline
+      name: Switch to dark mode
 
 plugins:
   - search:
