@@ -35,6 +35,7 @@ plugins:
         - locale: zh
           name: 简体中文
           build: true
+          link: /xproxy/zh/
   - mkdocstrings:
       handlers:
         python:
