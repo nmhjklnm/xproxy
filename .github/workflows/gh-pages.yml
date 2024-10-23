@@ -31,7 +31,7 @@ jobs:
 
     - name: Build and Deploy
       run: |
-      git config --global user.name "GitHub Actions"
+        git config --global user.name "GitHub Actions"
         git config --global user.email "github-actions@users.noreply.github.com"
         mkdocs gh-deploy --force
       env:
