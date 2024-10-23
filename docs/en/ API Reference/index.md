@@ -1,6 +1,6 @@
 # Base
 
-::: xproxy.manager.ProxyManager
+::: xproxy.manager.schema.ProxyManager
 
 
-::: xproxy.manager.Proxy
+::: xproxy.manager.schema.Proxy

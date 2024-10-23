@@ -1,5 +1,5 @@
 site_name: xproxy 
-site_url: https://xproxy.readthedocs.com
+site_url: https://nmhjklnm.github.io/xproxy/
 repo_url: https://github.com/nmhjklnm/xproxy
 
 theme:
@@ -39,7 +39,7 @@ plugins:
   - mkdocstrings:
       handlers:
         python:
-          paths: [..]
+          paths: [.]
           options:
             docstring_style: google
             show_source: true
