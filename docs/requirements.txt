@@ -1,5 +1,4 @@
 mkdocs
-mkdocs-i18n
 mkdocs-static-i18n
 mkdocs-minify-plugin
 mkdocs-material

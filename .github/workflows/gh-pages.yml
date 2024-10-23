@@ -27,7 +27,7 @@ jobs:
       run: |
         ls -R
         python -c "import sys; print(sys.path)"
-        
+
     - name: Set PYTHONPATH
       run: echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
 
@@ -36,3 +36,4 @@ jobs:
         mkdocs gh-deploy 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        PYTHONPATH: ${{env.PYTHONPATH}}
