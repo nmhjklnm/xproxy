@@ -1,10 +1,12 @@
 site_name: xproxy 
-site_url: https://xproxy.nextmind.space/
+site_url: https://nmhjklnm.github.io/xproxy/
 repo_url: https://github.com/nmhjklnm/xproxy
-
+extra:
+  homepage: https://xproxy.nextmind.space/
 theme:
   name: material
   logo: asset/logo.png
+
   icon:
     repo: fontawesome/brands/git-alt
   extra_css:
