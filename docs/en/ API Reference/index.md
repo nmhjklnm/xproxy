@@ -1,20 +1,17 @@
 # API Reference
 
-本节提供了 xproxy 库的 API 参考。这里您可以找到关于核心类和方法的详细信息。
+This section provides the API reference for the xproxy library. Here you can find detailed information about core classes and methods.
 
-## 核心类
+## Core Classes
 
-xproxy 的核心功能主要由两个类提供：`ProxyManager` 和 `Proxy`。
+The core functionality of xproxy is primarily provided by two classes: `ProxyManager` and `Proxy`.
 
 ### ProxyManager
 
-`ProxyManager` 是一个抽象基类，用于管理代理池。它提供了获取、刷新和轮换代理的基本功能。
-
-
+`ProxyManager` is an abstract base class for managing the proxy pool. It provides basic functionality for obtaining, refreshing, and rotating proxies.
 
 ### Proxy
 
-`Proxy` 类表示单个代理，包含代理的 URL、使用次数、有效性等信息。
+The `Proxy` class represents a single proxy, containing information such as the proxy's URL, usage count, validity, etc.
 
-
-各个类的具体使用参见其他部分。
+For specific usage of each class, please refer to other sections.
