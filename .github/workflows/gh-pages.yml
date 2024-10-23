@@ -3,7 +3,7 @@ name: Deploy MkDocs
 on:
   push:
     branches:
-      - main-_invaild
+      - main
 
 jobs:
   deploy:
@@ -35,5 +35,4 @@ jobs:
     - name: Build and Deploy
       run: |
         mkdocs gh-deploy 
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
