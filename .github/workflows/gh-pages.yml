@@ -23,10 +23,6 @@ jobs:
         pip install -r docs/requirements.txt 
         pip install .   
 
-    - name: Set PYTHONPATH
-      run: echo "PYTHONPATH=$(dirname $(pwd))" >> $GITHUB_ENV
-
-
     - name: Debug
       run: |
         ls -R
@@ -37,4 +33,4 @@ jobs:
       run: |
         mkdocs gh-deploy 
       env:
-        GITHUB_TOKEN: ${{ secrets.MY_CUSTOM_TOKEN}}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN}}
