@@ -21,7 +21,15 @@ jobs:
     - name: Install dependencies
       run: |
         pip install -r docs/requirements.txt 
-        pip install .        
+        pip install .   
+
+    - name: Debug
+      run: |
+        ls -R
+        python -c "import sys; print(sys.path)"
+        
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
 
     - name: Build and Deploy
       run: |
