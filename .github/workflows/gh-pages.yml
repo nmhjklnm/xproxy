@@ -23,17 +23,17 @@ jobs:
         pip install -r docs/requirements.txt 
         pip install .   
 
+    - name: Set PYTHONPATH
+      run: echo "PYTHONPATH=$(dirname $(pwd))" >> $GITHUB_ENV
+
     - name: Debug
       run: |
         ls -R
         python -c "import sys; print(sys.path)"
-
-    - name: Set PYTHONPATH
-      run: echo "PYTHONPATH=$(pwd)" >> $GITHUB_ENV
+        echo "PYTHONPATH: $PYTHONPATH"
 
     - name: Build and Deploy
       run: |
         mkdocs gh-deploy 
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        PYTHONPATH: ${{env.PYTHONPATH}}
